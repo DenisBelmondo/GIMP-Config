@@ -1,0 +1,9 @@
+# GIMP gimp-text-tool options
+
+(palette "Fight Fight Danger")
+(font "Arial")
+(font-size 82)
+(hint-style full)
+(line-spacing 4)
+
+# end of gimp-text-tool options

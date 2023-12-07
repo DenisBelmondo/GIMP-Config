@@ -1,0 +1,525 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR khalim19
+# This file is distributed under the same license as the 'export_layers' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 'export_layers' 3.2.1\n"
+"Report-Msgid-Bugs-To: khalim19@gmail.com\n"
+"POT-Creation-Date: 2018-06-09 23:12+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../export_layers/config.py:49
+msgid "Export Layers"
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:75
+msgid "Layer:"
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:77
+msgid "File extension:"
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:140
+msgid "Layer name"
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:144
+msgid "Image name"
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:145
+msgid "Layer path"
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:146
+msgid "Tags"
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:150
+msgid "Current date"
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:200
+#: ../../export_layers/pygimplib/pgpath.py:753
+msgid "Untitled"
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:483
+msgid "Background"
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:484
+msgid "Foreground"
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:842
+#, python-brace-format
+msgid "Creating empty directory \"{0}\""
+msgstr ""
+
+#: ../../export_layers/exportlayers.py:967
+#, python-brace-format
+msgid "Saving \"{0}\""
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:83
+msgid ""
+"Sorry, but the export was unsuccessful. You can try exporting again if you "
+"fix the issue described below."
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:99
+msgid ""
+"Sorry, but the export was unsuccessful. Do not close the image when "
+"exporting, keep it open until the export finishes successfully."
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:103
+msgid ""
+"If you believe this is a different error, you can help fix it by sending a "
+"report with the text in the details to one of the sites below."
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:121
+msgid "Are you sure you want to reset settings?"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:125
+msgid "Remove operations and constraints"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:389
+msgid "Save in folder:"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:430
+msgid "Save as"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:446
+msgid "Show More Settings"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:544
+msgid "_Export"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:545
+msgid "_Cancel"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:549
+#: ../../export_layers/gui/gui_plugin.py:1039
+msgid "_Stop"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:551
+msgid "_Settings"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:563
+msgid "Save Settings"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:564
+msgid "Reset settings"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:594
+msgid "_Help"
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:682
+msgid "Add _Operation..."
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:687
+msgid "Add _Constraint..."
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:818
+msgid "Settings successfully saved."
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:836
+msgid "Settings reset."
+msgstr ""
+
+#: ../../export_layers/gui/gui_plugin.py:874
+#: ../../export_layers/gui/gui_plugin.py:1101
+msgid "No layers were exported."
+msgstr ""
+
+#: ../../export_layers/gui/gui_preview_image.py:58
+msgid "There was a problem with updating the image preview."
+msgstr ""
+
+#: ../../export_layers/gui/gui_preview_image.py:60
+msgid ""
+"If you believe this is an error in the plug-in, you can help fix it by "
+"sending a report with the text in the details to one of the sites below."
+msgstr ""
+
+#: ../../export_layers/gui/gui_preview_image.py:414
+msgid "No selection"
+msgstr ""
+
+#: ../../export_layers/gui/gui_preview_name.py:225
+msgid "Preview"
+msgstr ""
+
+#: ../../export_layers/gui/gui_preview_name.py:282
+msgid "Add tag..."
+msgstr ""
+
+#: ../../export_layers/gui/gui_preview_name.py:286
+msgid "Remove tag"
+msgstr ""
+
+#: ../../export_layers/gui/gui_preview_name.py:441
+msgid "Tag name:"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pggui.py:107
+msgid "_Apply action to all files"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pggui.py:109
+msgid "Apply action to all files"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pggui.py:136
+#, python-brace-format
+msgid "A file named \"{0}\" already exists in \"{1}\". "
+msgstr ""
+
+#: ../../export_layers/pygimplib/pggui.py:139
+#, python-brace-format
+msgid "A file named \"{0}\" already exists.\n"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pggui.py:141
+msgid "A file with the same name already exists.\n"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pggui.py:143
+msgid "What would you like to do?"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pggui.py:251
+msgid "Oops. Something went wrong."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pggui.py:255
+#, python-brace-format
+msgid "{0} encountered an unexpected error and has to close. Sorry about that!"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pggui.py:260
+msgid ""
+"You can help fix this error by sending a report with the text in the details "
+"above to one of the following sites"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pggui.py:308
+msgid "Details"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pggui.py:341
+msgid "(right-click to copy link)"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:690
+msgid "Filename is not specified."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:692
+msgid "Filename contains invalid characters."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:694
+msgid "Filename cannot end with spaces."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:696
+msgid "Filename cannot end with a period."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:698
+#, python-brace-format
+msgid "\"{0}\" is a reserved name that cannot be used in filenames.\n"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:781
+msgid "File path is not specified."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:783
+#: ../../export_layers/pygimplib/pgpath.py:884
+msgid "Drive letter contains invalid characters."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:785
+msgid "File path contains invalid characters."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:787
+msgid "Path components in the file path cannot end with spaces."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:789
+msgid "Path components in the file path cannot end with a period."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:791
+#, python-brace-format
+msgid "\"{0}\" is a reserved name that cannot be used in file paths.\n"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:882
+msgid "Directory path is not specified."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:886
+msgid "Directory path contains invalid characters."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:888
+msgid "Path components in the directory path cannot end with spaces."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:890
+msgid "Path components in the directory path cannot end with a period."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:892
+#, python-brace-format
+msgid "\"{0}\" is a reserved name that cannot be used in directory paths.\n"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:894
+msgid "Specified path is not a directory path."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:927
+msgid "File extension is not specified."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:929
+msgid "File extension contains invalid characters."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:931
+msgid "File extension cannot end with spaces."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgpath.py:933
+msgid "File extension cannot end with a period."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgsetting.py:784
+#, python-brace-format
+msgid "Value cannot be less than {0}."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgsetting.py:786
+#, python-brace-format
+msgid "Value cannot be greater than {0}."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgsetting.py:946
+#, python-brace-format
+msgid "Invalid item value; valid values: {0}"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgsetting.py:1105
+msgid "Invalid image."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgsetting.py:1136
+msgid "Invalid drawable."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgsettingsources.py:145
+#, python-brace-format
+msgid ""
+"The following settings could not be found in any sources:\n"
+"{0}"
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgsettingsources.py:235
+#, python-brace-format
+msgid "Could not find persistent setting source \"{0}\"."
+msgstr ""
+
+#: ../../export_layers/pygimplib/pgsettingsources.py:265
+#, python-brace-format
+msgid ""
+"Settings for this plug-in stored in \"{0}\" may be corrupt. This could "
+"happen if the file was edited manually.\n"
+"To fix this, save the settings again or reset them."
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:61
+msgid "The run mode"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:67
+msgid "Image"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:98
+msgid "Output directory"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:105
+msgid "Treat layer groups as folders"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:111
+msgid "Use image size"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:117
+msgid "Only visible layers"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:123
+msgid "Layer filename pattern"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:124
+msgid "Layer filename pattern (empty string = layer name)"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:132
+#: ../../export_layers/settings_plugin.py:141
+msgid "Selected layers"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:150
+msgid "_Replace"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:151
+msgid "_Skip"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:152
+msgid "Rename _new file"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:153
+msgid "Rename _existing file"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:155
+msgid "Overwrite mode (non-interactive run mode only)"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:175
+msgid "Insert background layers"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:181
+msgid "Insert foreground layers"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:187
+msgid "Inherit transparency from layer groups"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:193
+msgid "Ignore layer modes"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:199
+msgid "Autocrop"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:205
+msgid "Autocrop background"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:211
+msgid "Autocrop foreground"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:217
+msgid "Use file extensions in layer names"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:231
+msgid "Include"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:243
+msgid "Include layers"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:249
+msgid "Include layer groups"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:255
+msgid "Include empty layer groups"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:265
+msgid "Only layers without tags"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:271
+msgid "Only layers with tags"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:277
+msgid "Only layers matching file extension"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:283
+msgid "Only top-level layers"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:289
+msgid "Only layers selected in preview"
+msgstr ""
+
+#: ../../export_layers/settings_plugin.py:303
+msgid ""
+"You need to specify default file extension for layers with invalid or no "
+"extension."
+msgstr ""
+
+#: ../../export_layers.py:62
+msgid "Export layers as separate images"
+msgstr ""
+
+#: ../../export_layers.py:67
+msgid "E_xport Layers..."
+msgstr ""
+
+#: ../../export_layers.py:88
+#, python-brace-format
+msgid "Run \"{0}\" with the last values specified"
+msgstr ""
+
+#: ../../export_layers.py:91
+msgid ""
+"If the plug-in is run for the first time (i.e. no last values exist), "
+"default values will be used."
+msgstr ""
+
+#: ../../export_layers.py:97
+msgid "E_xport Layers (repeat)"
+msgstr ""

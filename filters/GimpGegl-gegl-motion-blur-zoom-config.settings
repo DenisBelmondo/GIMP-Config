@@ -1,0 +1,14 @@
+# settings
+
+(GimpGegl-gegl-motion-blur-zoom-config "2019-12-29 23:25:46"
+    (time 1577687146)
+    (center-x 0.5)
+    (center-y 0.5)
+    (factor 0.10000000000000001))
+(GimpGegl-gegl-motion-blur-zoom-config "2019-12-12 20:15:40"
+    (time 1576206940)
+    (center-x 0.5)
+    (center-y 0.5)
+    (factor 0.074999999999999997))
+
+# end of settings

@@ -1,0 +1,44 @@
+# settings
+
+(GimpGegl-gegl-gaussian-blur-selective-config "2022-04-17 13:35:02"
+    (time 1650224102)
+    (blur-radius 17.98)
+    (max-delta 0.23799999999999999))
+(GimpGegl-gegl-gaussian-blur-selective-config "2021-05-10 09:32:51"
+    (time 1620660771)
+    (blur-radius 3.2999999999999998)
+    (max-delta 0.16600000000000001))
+(GimpGegl-gegl-gaussian-blur-selective-config "2020-11-25 00:53:53"
+    (time 1606290833)
+    (blur-radius 1)
+    (max-delta 1))
+(GimpGegl-gegl-gaussian-blur-selective-config "2020-11-25 00:52:40"
+    (time 1606290760)
+    (blur-radius 2.4399999999999999)
+    (max-delta 0.128))
+(GimpGegl-gegl-gaussian-blur-selective-config "2020-10-04 13:57:05"
+    (time 1601841425)
+    (blur-radius 1)
+    (max-delta 0.122))
+(GimpGegl-gegl-gaussian-blur-selective-config "2020-01-24 23:15:54"
+    (time 1579932954)
+    (blur-radius 5)
+    (max-delta 0.055))
+(GimpGegl-gegl-gaussian-blur-selective-config "2020-01-24 23:15:41"
+    (time 1579932941)
+    (blur-radius 13.66)
+    (max-delta 0.32300000000000001))
+(GimpGegl-gegl-gaussian-blur-selective-config "2019-10-17 16:34:54"
+    (time 1571351694)
+    (blur-radius 1)
+    (max-delta 0.02))
+(GimpGegl-gegl-gaussian-blur-selective-config "2019-10-17 16:31:39"
+    (time 1571351499)
+    (blur-radius 1)
+    (max-delta 0.014))
+(GimpGegl-gegl-gaussian-blur-selective-config "2019-10-17 16:31:06"
+    (time 1571351466)
+    (blur-radius 45.609999999999999)
+    (max-delta 0.043999999999999997))
+
+# end of settings

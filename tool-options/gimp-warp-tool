@@ -1,0 +1,8 @@
+# GIMP gimp-warp-tool options
+
+(effect-size 15.76)
+(stroke-spacing 1)
+(interpolation none)
+(high-quality-preview yes)
+
+# end of gimp-warp-tool options

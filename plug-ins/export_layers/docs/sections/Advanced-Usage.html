@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8">
+  <title>Export Layers - Advanced Usage</title>
+  <meta content="GIMP plug-in that exports layers as separate images" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="#0099cc" name="theme-color">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+  
+    <link href="../assets/css/style.css" rel="stylesheet">
+  
+  <link href="../favicon.ico" rel="icon">
+  
+  
+</head>
+
+  
+  <body>
+    <section class="navbar">
+  <div class="navbar-container" role="navigation">
+    <div>
+      <ul>
+        <li><a href="../../Readme.html">Home</a></li>
+        <li><a class="active" href="index.html">Documentation</a></li>
+        <li><a href="https://github.com/khalim19/gimp-plugin-export-layers">View on GitHub</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <ul class="right">
+        
+          <li>
+            <a href="Usage.html">« Usage</a>
+          </li>
+        
+        
+          <li>
+            <a href="Known-Issues.html">Known Issues »</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</section>
+
+    
+    <section class="main-content">
+      <h1>Advanced Usage</h1>
+      
+      <ul id="markdown-toc">
+  <li><a href="#dialog" id="markdown-toc-dialog">Dialog</a>    <ul>
+      <li><a href="#preview" id="markdown-toc-preview">Preview</a></li>
+    </ul>
+  </li>
+  <li><a href="#customizing-layer-names" id="markdown-toc-customizing-layer-names">Customizing Layer Names</a>    <ul>
+      <li><a href="#available-fields" id="markdown-toc-available-fields">Available fields</a></li>
+      <li><a href="#inserting-reserved-characters-in-arguments" id="markdown-toc-inserting-reserved-characters-in-arguments">Inserting reserved characters in arguments</a></li>
+    </ul>
+  </li>
+  <li><a href="#additional-operations" id="markdown-toc-additional-operations">Additional Operations</a></li>
+  <li><a href="#additional-constraints" id="markdown-toc-additional-constraints">Additional Constraints</a></li>
+  <li><a href="#tagging-layers" id="markdown-toc-tagging-layers">Tagging Layers</a></li>
+</ul>
+
+<h2 id="dialog">Dialog</h2>
+
+<p>If you wish to further customize the export beyond the basic features of Export
+Layers, you can do so in the “advanced” version of the main dialog. To show the
+advanced dialog, press the “Settings” button and choose “Show More Settings”.</p>
+
+<p><img alt="Dialog for advanced usage of Export Layers" src="../images/screenshot_dialog_advanced_usage.png"></p>
+
+<p>The advanced dialog allows you, among other things, to customize the layer name,
+add operations executed before the export of each layer and add constraints to
+exclude specific layers.</p>
+
+<p>You can adjust the height of the bottom pane (between the file extension and the
+buttons to add operations/constraints) and the width of the pane between the
+folder chooser and the preview.</p>
+
+<h3 id="preview">Preview</h3>
+
+<p>Because the number of operations and constraints can get overwhelming, the
+preview can help you by showing how the layers will be exported.</p>
+
+<p>The upper part of the preview displays the names of layers to be exported
+(“layer name preview”), along with their folder structure if “Treat layer groups
+as folders” is enabled.</p>
+
+<p>If you select a layer in the layer name preview, the layer contents are
+displayed below (“contents preview”). You can also adjust the height of the
+contents preview by dragging the upper edge of the contents preview.</p>
+
+<h2 id="customizing-layer-names">Customizing Layer Names</h2>
+
+<p>The text entry next to “Save as” lets you customize the filenames. Layer names
+are used by default.</p>
+
+<p>There are several built-in “fields” that you can combine to form a filename
+pattern. For example, “image[001]” renames the layers to “image001”,
+“image002” and so on.</p>
+
+<p>The preview automatically updates as you change the filename pattern and so can
+greatly help you figure out how your specified pattern affects the layer names.</p>
+
+<p>Fields must be enclosed in square brackets and must have a correct number of
+arguments. If you place the text cursor inside a field, a corresponding tooltip
+above the text entry shows you the name and the number of possible arguments.</p>
+
+<p>Arguments must be separated by commas. Arguments in italic are optional.
+Arguments with slashes indicates a single choice of one of the specified values.
+Invalid arguments result in the field being inserted literally.</p>
+
+<h3 id="available-fields">Available fields</h3>
+
+<p>You can choose the fields from the dropdown list displayed when clicking on the
+text entry or you can type the fields manually.</p>
+
+<p><strong>[number]</strong></p>
+
+<p>A number incrementing for each layer.</p>
+
+<p>The numbering is separate for each layer group if
+“Treat layer groups as folders” is enabled.</p>
+
+<p>Examples:</p>
+<ul>
+  <li>[1] → 1, 2, …</li>
+  <li>[001] → 001, 002, …, 009, 010, …, 999, 1000, …</li>
+  <li>[005] → 005, 006, …</li>
+</ul>
+
+<p><strong>[layer name]</strong></p>
+
+<p>The layer name.</p>
+
+<p>Arguments:</p>
+<ul>
+  <li>“keep extension”: If a layer has a recognized file extension, don’t remove it.</li>
+  <li>“keep only identical extension”: If a layer has a recognized file extension
+and it matches the extension in the “File extension” text entry, don’t remove
+it.</li>
+</ul>
+
+<p><strong>[image name]</strong></p>
+
+<p>The current image name.</p>
+
+<p>Arguments:</p>
+<ul>
+  <li>“keep extension”: Do not remove the file extension of the image if it has one.</li>
+</ul>
+
+<p><strong>[layer path]</strong></p>
+
+<p>The “full path” of a layer. For example, if the image has a layer group named
+“Frames” and the layer group has a layer named “Top”, the path for the layer
+will be “Frames-Top”.</p>
+
+<p>Arguments:</p>
+<ul>
+  <li>path separator: A string that separates the path components. Defaults to “-“.</li>
+  <li>wrapper: A string that wraps around each path component. The wrapper must
+contain “$$” (denoting the name of the current path component). By default, no
+wrapper is used.</li>
+</ul>
+
+<p>Examples:</p>
+<ul>
+  <li>Suppose that a layer has the following path: Frames, Outer, bottom.</li>
+  <li>[layer path] → Frames-Outer-bottom</li>
+  <li>[layer path, _] → Frames_Outer_bottom</li>
+  <li>[layer path, _, ($$)] → (Frames)_(Outer)_(bottom)</li>
+</ul>
+
+<p><strong>[tags]</strong></p>
+
+<p>All tags of a layer. By default, tags are inserted in the following format:
+“[tag1] [tag2] …”</p>
+
+<p>Tags are inserted in alphabetical order. See <a href="#tagging-layers">Tagging Layers</a>
+for information about layer tags.</p>
+
+<p>Arguments:</p>
+<ul>
+  <li>if there are two arguments and the second argument contains “$$”, then the
+first argument is a separator between tags and the second argument acts as a
+“wrapper” around the tag name.</li>
+  <li>specific tags: tag names as comma-separated arguments. If omitted, all tags
+are inserted.</li>
+</ul>
+
+<p>Examples:</p>
+<ul>
+  <li>Suppose that a layer has the following tags: Background, Foreground, frames.</li>
+  <li>[tags] → [Background] [Foreground] [frames]</li>
+  <li>[tags, Background, Foreground] → [Background] [Foreground]</li>
+  <li>[tags, _, ($$)] → (Background)_(Foreground)_(frames)</li>
+  <li>[tags, _, ($$), Background, Foreground] → (Background)_(Foreground)</li>
+</ul>
+
+<p><strong>[current date]</strong></p>
+
+<p>The current date.</p>
+
+<p>Arguments:</p>
+<ul>
+  <li>date format: Date format as per the
+<a href="http://strftime.org/index.html">Python <code class="highlighter-rouge">strftime</code> format</a>. Defaults to “%Y-%m-%d”
+(year-month-day).</li>
+</ul>
+
+<h3 id="inserting-reserved-characters-in-arguments">Inserting reserved characters in arguments</h3>
+
+<p>To insert a literal space, comma or square brackets (“[” and “]”) in an
+argument, enclose the argument with square brackets. Literal square brackets
+must be doubled.</p>
+
+<p>If the last argument is enclosed in square brackets, leave a single space
+between the last and the second to last closing square bracket.</p>
+
+<p>Examples:</p>
+<ul>
+  <li>[layer path, [ ], $$]</li>
+  <li>[layer path, [ ] ]</li>
+  <li>[layer path, [,], [[[$$]]] ]</li>
+</ul>
+
+<h2 id="additional-operations">Additional Operations</h2>
+
+<p>To add custom operations before the export of each layer, press the
+“Add Operation…” button and select one of the operations described below.</p>
+
+<p><strong>Insert background layers</strong></p>
+
+<p>Insert layers tagged with “Background” as background for each layer. To set a
+layer as a background layer, see <a href="#tagging-layers">Tagging Layers</a>. Note that
+even background layers get exported - to prevent this behavior, enable the
+“Only layers without tags” constraint.</p>
+
+<p><strong>Insert foreground layers</strong></p>
+
+<p>Insert layers tagged with “Foreground” as foreground for each layer.
+See the “Insert background layers” setting for more information.</p>
+
+<p><strong>Inherit transparency from layer groups</strong></p>
+
+<p>Combine opacity from all parent layer groups for each layer. This corresponds to
+how the layer is actually displayed in the image canvas.</p>
+
+<p>For example, if a layer has 50% opacity and its parent group also has 50%
+opacity, the resulting opacity of the exported layer will be 25%.</p>
+
+<p><strong>Ignore layer modes</strong></p>
+
+<p>Set the layer mode of each layer to “Normal”. Among other uses, this may be
+necessary for layers with different modes that “vanish” if background or
+foreground is inserted.</p>
+
+<p><strong>Autocrop</strong></p>
+
+<p>Automatically crop each layer.</p>
+
+<p><strong>Autocrop background</strong></p>
+
+<p>Automatically crop the background formed by layers tagged with “Background”.
+Note that autocrop is performed on the entire background, not on the background
+layers individually.</p>
+
+<p><strong>Autocrop foreground</strong></p>
+
+<p>Same as “Autocrop background”, but works on the foreground layers instead.</p>
+
+<p><strong>Use file extensions in layer names</strong></p>
+
+<p>If a layer has a recognized file extension, use that file extension instead of
+the file extension in the “File extension” text entry.</p>
+
+<h2 id="additional-constraints">Additional Constraints</h2>
+
+<p>To include or exclude layers according to specific criteria, press the
+“Add Constraint…” button and select one of the constraints described below.</p>
+
+<p><strong>Include layers</strong></p>
+
+<p>Export all layers that are not groups. This is enabled by default.</p>
+
+<p><strong>Include layer groups</strong></p>
+
+<p>Export all layer groups.</p>
+
+<p><strong>Include empty layer groups</strong></p>
+
+<p>Create subfolders for empty layer groups.</p>
+
+<p><strong>Only layers with tags</strong></p>
+
+<p>Export only layers with tags. See <a href="#tagging-layers">Tagging Layers</a> for
+information about tags.</p>
+
+<p><strong>Only layers without tags</strong></p>
+
+<p>Export only layers with no tags. See <a href="#tagging-layers">Tagging Layers</a> for
+information about tags.</p>
+
+<p><strong>Only top-level layers</strong></p>
+
+<p>Export only layers at the top of the layer tree (i.e. do not export layers
+inside any layer group).</p>
+
+<p><strong>Only layers selected in preview</strong></p>
+
+<p>Export only layers selected in the layer name preview. If you save settings, the
+selection is saved as well.</p>
+
+<h2 id="tagging-layers">Tagging Layers</h2>
+
+<p>Tags attached to layers allow you to customize each layer individually. To
+attach a tag to one or more layers, select them in the
+<a href="#preview">layer name preview</a>, right-click on the selection and choose your
+tag. Tagged layers are indicated with a tag icon in the preview.</p>
+
+<p>Adding or removing tags modifies the current image. Save the image to keep
+the tags permanently.</p>
+
+<p>Currently, Export Layers recognizes only “Background” and “Foreground” tags
+during processing. However, you can still add custom tags if desired -
+right-click anywhere on the layer name preview, select “Add tag…” and name
+your new tag. You can then add the tag to any layer.</p>
+
+<p>To remove custom tags, you must first remove them from all
+layers, then right-click anywhere on the layer name preview, select
+“Remove tag…” and select the tag you wish to remove.</p>
+
+    </section>
+  </body>
+</html>

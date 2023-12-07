@@ -1,0 +1,7 @@
+# GIMP gimp-by-color-select-tool options
+
+(antialias no)
+(sample-merged yes)
+(threshold 0)
+
+# end of gimp-by-color-select-tool options

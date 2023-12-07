@@ -1,0 +1,10 @@
+# GIMP gimp-vector-tool options
+
+(background (color-rgb 0.023529411764705882 0.023529411764705882 0.023529411764705882))
+(brush "2. Hardness 025")
+(dynamics "Dynamics Off")
+(pattern "Pine")
+(gradient "FG to Transparent")
+(palette "Fight Fight Danger")
+
+# end of gimp-vector-tool options

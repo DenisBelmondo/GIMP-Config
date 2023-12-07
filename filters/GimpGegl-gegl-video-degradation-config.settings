@@ -1,0 +1,14 @@
+# settings
+
+(GimpGegl-gegl-video-degradation-config "2023-03-24 18:14:19"
+    (time 1679703259)
+    (pattern staggered)
+    (additive yes)
+    (rotated no))
+(GimpGegl-gegl-video-degradation-config "2022-12-15 18:05:04"
+    (time 1671152704)
+    (pattern striped)
+    (additive yes)
+    (rotated no))
+
+# end of settings

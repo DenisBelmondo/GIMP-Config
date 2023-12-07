@@ -1,0 +1,10 @@
+# GIMP gimp-gradient-tool options
+
+(background (color-rgb 0.023529411764705882 0.023529411764705882 0.023529411764705882))
+(gradient "FG to Transparent")
+(brush-size 51)
+(brush-hardness 0.5)
+(gradient-blend-color-space rgb-linear)
+(dither no)
+
+# end of gimp-gradient-tool options

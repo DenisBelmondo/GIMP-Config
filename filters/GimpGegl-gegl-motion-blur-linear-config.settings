@@ -1,0 +1,45 @@
+# settings
+
+(GimpGegl-gegl-motion-blur-linear-config "2023-03-24 19:27:20"
+    (time 1679707640)
+    (length 28.73)
+    (angle -44.937381686665219))
+(GimpGegl-gegl-motion-blur-linear-config "2023-03-24 19:22:13"
+    (time 1679707333)
+    (length 269.16000000000003)
+    (angle -44.937381686665219))
+(GimpGegl-gegl-motion-blur-linear-config "2023-03-24 19:21:06"
+    (time 1679707266)
+    (length 22.949999999999999)
+    (angle -44.937381686665219))
+(GimpGegl-gegl-motion-blur-linear-config "2022-07-28 00:00:54"
+    (time 1658988054)
+    (length 4.5199999999999996)
+    (angle -92.763857370912547))
+(GimpGegl-gegl-motion-blur-linear-config "2021-09-30 23:13:26"
+    (time 1633065206)
+    (length 25.210000000000001)
+    (angle 0))
+(GimpGegl-gegl-motion-blur-linear-config "2021-09-30 23:12:50"
+    (time 1633065170)
+    (length 174.81999999999999)
+    (angle 0))
+(GimpGegl-gegl-motion-blur-linear-config "2021-09-30 23:12:30"
+    (time 1633065150)
+    (length 46.32)
+    (angle 0))
+(GimpGegl-gegl-motion-blur-linear-config "2021-09-24 19:10:37"
+    (time 1632532237)
+    (length 1.27)
+    (angle 45))
+(GimpGegl-gegl-motion-blur-linear-config "2021-09-24 19:00:08"
+    (time 1632531608)
+    (gimp-mode multiply)
+    (length 2.46)
+    (angle 45))
+(GimpGegl-gegl-motion-blur-linear-config "2021-07-13 01:25:48"
+    (time 1626161148)
+    (length 25.789999999999999)
+    (angle 56.100000000000001))
+
+# end of settings

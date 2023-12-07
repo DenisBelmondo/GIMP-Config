@@ -1,0 +1,54 @@
+# settings
+
+(GimpGegl-gegl-color-to-alpha-config "2023-12-06 19:31:07"
+    (time 1701916267)
+    (color (color-rgba 0 0 0 1))
+    (transparency-threshold 0)
+    (opacity-threshold 1))
+(GimpGegl-gegl-color-to-alpha-config "2023-11-28 19:10:06"
+    (time 1701223806)
+    (color (color-rgba 1 1 1 1))
+    (transparency-threshold 0.57799999999999996)
+    (opacity-threshold 0.77500000000000002))
+(GimpGegl-gegl-color-to-alpha-config "2023-11-27 23:42:49"
+    (time 1701153769)
+    (color (color-rgba 1 1 1 1))
+    (transparency-threshold 0.55200000000000005)
+    (opacity-threshold 0.79700000000000004))
+(GimpGegl-gegl-color-to-alpha-config "2023-11-27 23:13:30"
+    (time 1701152010)
+    (color (color-rgba 1 1 1 1))
+    (transparency-threshold 0.65000000000000002)
+    (opacity-threshold 0.77800000000000002))
+(GimpGegl-gegl-color-to-alpha-config "2023-11-27 23:13:01"
+    (time 1701151981)
+    (color (color-rgba 1 1 1 1))
+    (transparency-threshold 0)
+    (opacity-threshold 1))
+(GimpGegl-gegl-color-to-alpha-config "2023-10-21 00:41:31"
+    (time 1697870491)
+    (color (color-rgba 1 1 1 1))
+    (transparency-threshold 0.19600000000000001)
+    (opacity-threshold 0.34300000000000003))
+(GimpGegl-gegl-color-to-alpha-config "2023-10-21 00:40:20"
+    (time 1697870420)
+    (color (color-rgba 1 1 1 1))
+    (transparency-threshold 0)
+    (opacity-threshold 0.72899999999999998))
+(GimpGegl-gegl-color-to-alpha-config "2023-10-21 00:35:00"
+    (time 1697870100)
+    (color (color-rgba 1 1 1 1))
+    (transparency-threshold 0)
+    (opacity-threshold 0.34000000000000002))
+(GimpGegl-gegl-color-to-alpha-config "2023-10-21 00:27:43"
+    (time 1697869663)
+    (color (color-rgba 0 1 0 1))
+    (transparency-threshold 0.35299999999999998)
+    (opacity-threshold 0.52600000000000002))
+(GimpGegl-gegl-color-to-alpha-config "2023-05-19 18:24:46"
+    (time 1684542286)
+    (color (color-rgba 0 0 0 1))
+    (transparency-threshold 0.54600000000000004)
+    (opacity-threshold 1))
+
+# end of settings

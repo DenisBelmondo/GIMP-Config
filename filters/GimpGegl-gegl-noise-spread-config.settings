@@ -1,0 +1,14 @@
+# settings
+
+(GimpGegl-gegl-noise-spread-config "2023-12-01 15:34:50"
+    (time 1701470090)
+    (amount-x 1)
+    (amount-y 1)
+    (seed 0))
+(GimpGegl-gegl-noise-spread-config "2023-12-01 15:34:12"
+    (time 1701470052)
+    (amount-x 21)
+    (amount-y 21)
+    (seed 0))
+
+# end of settings

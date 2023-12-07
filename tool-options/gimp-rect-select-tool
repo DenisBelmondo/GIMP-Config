@@ -1,0 +1,8 @@
+# GIMP gimp-rect-select-tool options
+
+(fixed-rule size)
+(guide center-lines)
+(highlight yes)
+(highlight-opacity 0.59999999999999998)
+
+# end of gimp-rect-select-tool options

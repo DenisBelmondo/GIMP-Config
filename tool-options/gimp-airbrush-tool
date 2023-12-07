@@ -1,0 +1,13 @@
+# GIMP gimp-airbrush-tool options
+
+(background (color-rgb 0.023529411764705882 0.023529411764705882 0.023529411764705882))
+(brush "2. Hardness 025")
+(dynamics "Dynamics Off")
+(gradient "FG to Transparent")
+(palette "Fight Fight Danger")
+(brush-size 1)
+(brush-spacing 0.050000000000000003)
+(brush-hardness 0.25)
+(gradient-blend-color-space rgb-linear)
+
+# end of gimp-airbrush-tool options
